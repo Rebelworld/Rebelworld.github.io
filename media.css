@@ -1,0 +1,68 @@
+
+
+body{
+	background-size: cover;
+	background-color: black;
+	background-image: url(https://images.unsplash.com/photo-1485056981035-7a565c03c6aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+}
+.navbar{
+	background-color: black;
+	width: 100%;
+	position: -webkit-sticky;
+	position:sticky;
+}
+
+.navbar a:hover{
+	background:black;
+	color: grey;
+}
+.navbar a{
+	text-align: center;
+	color:white;
+	padding: 12px;
+	font-size: 12pt;
+
+}
+a:link{
+	text-decoration: none;
+}
+.logoNav{
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+
+
+.column{
+	
+	width:20%;
+	height: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	
+	float:left;
+
+}
+
+.row{
+
+}
+.gridContainer{
+	background-color: black;
+}
+.downloadImg{
+	height: 100%;
+	width:100%;
+}
+.downloadBtn{
+	color:white;
+	background-color:black;
+	font-size: 0.8em;
+}
+.imgText{
+
+	font-size: 0.8em;
+	color: white;
+	background-color: black;
+}

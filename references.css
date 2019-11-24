@@ -1,0 +1,84 @@
+body{
+
+
+background-color: black;
+background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/KOAWWMD2N3.jpg);
+background-size: cover;
+}
+
+.navbar{
+	background-color: black;
+	width: 100%;
+	position: -webkit-sticky;
+	position:sticky;
+}
+
+.navbar a:hover{
+	background:black;
+	color: grey;
+}
+.navbar a{
+	text-align: center;
+	color:white;
+	padding: 12px;
+	font-size: 12pt;
+}
+.logoNav{
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+
+li{
+	color: white;
+}
+
+.instruct{
+	background-color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+
+
+}
+.instructText{
+	color:white;
+	text-align: center;
+	font-size: 12pt;
+	margin: 5%;
+	padding: 2em;
+}
+
+.refDiv1{
+	background-color: black;
+	width: 45%;
+	float: left;
+	border: 2px solid black;
+	margin-left: 5%;
+	margin-top: 25%;
+	margin-right:5%;
+	
+
+}
+
+
+.refDiv2{
+	background-color: black;
+	display: flex;
+	width: 20em;
+	float: right;
+	border: 5px solid black;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 25em;
+	overflow: scroll;
+	font-size: 14pt;
+}
+
+.titlerefDiv2{
+	color:white;
+	font-weight: bold;
+
+}
+
